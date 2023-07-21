@@ -1,0 +1,11 @@
+  function findMax(numbers){
+    max = 0;
+    numbers.forEach(num => {
+      if(num>max){
+        max = num
+      }
+    });
+    return max
+  };
+  numbers = [32,7,45,7,4,8,5,10,90];
+  console.log(findMax(numbers));
